@@ -43,8 +43,8 @@ while True:
         else:
             hi = mid - 1
     current_password += char_set[ans]
-		if current_password[-1] == '}':
-		    break
+    if current_password[-1] == '}':
+        break
 
 # output the flag
 print(current_password)
